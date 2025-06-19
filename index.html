@@ -1,127 +1,94 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8" />
-  <title>Srév - السيرفرات</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f2f2f2; /* أبيض مخلوط رمادي */
-    }
+    <meta charset="UTF-8">
+    <title>Srev</title>
+    <style>
+        body {
+            background-color: #444;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
 
-    .header {
-      text-align: center;
-      font-size: 36px;
-      font-weight: bold;
-      padding: 40px 0 10px;
-      color: #333;
-    }
+        .title {
+            text-align: center;
+            font-size: 60px;
+            font-weight: 900;
+            margin-top: 40px;
+        }
 
-    .sub-header {
-      text-align: center;
-      font-size: 22px;
-      color: #333;
-      margin-bottom: 30px;
-    }
+        .cards-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+            gap: 40px; /* مسافة كبيرة بين الكروت */
+        }
 
-    .cards {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 20px;
-      max-width: 1000px;
-      margin: auto;
-      padding: 0 20px;
-    }
+        .card {
+            background-color: #555;
+            border-radius: 20px;
+            padding: 30px;
+            width: 400px;
+            height: 400px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.4);
+            overflow-y: auto;
+        }
 
-    .card {
-      width: 300px;
-      height: 300px;
-      background-color: #3c3c3c;
-      color: #fff;
-      border-radius: 20px;
-      padding: 20px;
-      text-align: center;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
+        .card p {
+            margin: 10px 0;
+            line-height: 1.8;
+            font-size: 16px;
+        }
 
-    .card h3 {
-      font-size: 20px;
-      margin-bottom: 10px;
-      font-weight: bold;
-    }
+        .button {
+            display: block;
+            margin: 60px auto;
+            background-color: gray;
+            color: white;
+            text-decoration: none;
+            padding: 18px 30px;
+            border-radius: 10px;
+            font-size: 20px;
+            font-weight: bold;
+        }
 
-    .card p {
-      font-size: 15px;
-      line-height: 1.7;
-      margin: 5px 0;
-    }
-
-    .button-container {
-      text-align: center;
-      margin: 50px 0 30px;
-    }
-
-    .discord-button {
-      background-color: gray;
-      color: white;
-      padding: 15px 30px;
-      border: none;
-      border-radius: 8px;
-      font-size: 18px;
-      cursor: pointer;
-      text-decoration: none;
-    }
-
-    .discord-button:hover {
-      background-color: #5a5a5a;
-    }
-
-    @media (max-width: 768px) {
-      .card {
-        width: 90%;
-        height: auto;
-      }
-    }
-  </style>
+        .button:hover {
+            background-color: #888;
+        }
+    </style>
 </head>
 <body>
 
-  <div class="header">Srév</div>
-  <div class="sub-header">سيرفرات بأسعار مميزة وجودة عالية</div>
+    <div class="title">Srév</div>
 
-  <div class="cards">
-    <div class="card">
-      <h3>أرخص الأسعار</h3>
-      <p>نوفر لك أقل الأسعار في السوق بدون التنازل عن الجودة. استثمر بأقل تكلفة واحصل على أعلى مردود.</p>
+    <div class="cards-container">
+
+        <div class="card">
+            <p>نقدم خدمات بيع سيرفرات بأسعار مميزة مع ضمان التفعيل الفوري والدعم الفني السريع. نحن نضمن لك أعلى جودة وسرعة في التنفيذ لتلبية احتياجاتك اليومية.</p>
+            <p>We offer server selling services with competitive pricing, instant activation guarantee, and fast technical support. We ensure top quality and execution speed for your daily needs.</p>
+        </div>
+
+        <div class="card">
+            <p>إذا كنت تبحث عن سيرفرات مستقرة، مفعلة، وآمنة، فنحن نوفر لك كل ذلك وأكثر. كميات كبيرة متوفرة وجاهزة للتسليم في أي وقت.</p>
+            <p>If you're looking for stable, activated, and secure servers — we've got it all. Large quantities available and ready for immediate delivery.</p>
+        </div>
+
+        <div class="card">
+            <p>خدمتنا لا تقتصر على السعر فقط، بل نقدم لك تجربة متكاملة تشمل الجودة العالية، الرد السريع، والتعامل الاحترافي مع كل طلب.</p>
+            <p>Our service isn’t just about low prices — we offer a complete experience with high quality, fast response, and professional handling of every order.</p>
+        </div>
+
+        <div class="card">
+            <p>سواء كنت موزعًا أو مستخدمًا فرديًا، لدينا خطط وأسعار تناسب الجميع. تواصل معنا لأي استفسار أو طلب خاص وسنكون بخدمتك فورًا.</p>
+            <p>Whether you're a reseller or an individual user, we have plans and pricing for everyone. Contact us for any inquiry or custom request and we’ll be at your service instantly.</p>
+        </div>
+
     </div>
 
-    <div class="card">
-      <h3>سرعة تسليم</h3>
-      <p>نجهز طلبك فوراً بعد الدفع. لا انتظار، لا تأخير. نخدمك بأسرع وقت ممكن.</p>
-    </div>
-
-    <div class="card">
-      <h3>كميات بالجملة</h3>
-      <p>جاهزين لتوريد كميات كبيرة بشكل يومي أو شهري مع خصومات مميزة ومتابعة مستمرة.</p>
-    </div>
-
-    <div class="card">
-      <h3>جودة مضمونة</h3>
-      <p>نستخدم أفضل الأدوات وأحدث التقنيات لضمان استقرار الخدمة لأطول وقت ممكن.</p>
-    </div>
-  </div>
-
-  <div class="button-container">
-    <a href="https://discord.gg/fx9GjgWhP2" class="discord-button" target="_blank">
-      دخول سيرفرنا لطلب أو الاستفسار
-    </a>
-  </div>
+    <a class="button" href="https://discord.gg/fx9GjgWhP2" target="_blank">دخول سيرفرنا لطلب أو الاستفسار</a>
 
 </body>
 </html>
