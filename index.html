@@ -1,105 +1,118 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <title>بيع السيرفرات</title>
-    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@900&display=swap" rel="stylesheet">
-    <style>
-        body {
-            background-color: white;
-            background-image: repeating-linear-gradient(45deg, #000 1px, transparent 2px),
-                              repeating-linear-gradient(-45deg, #000 1px, transparent 2px);
-            background-size: 40px 40px;
-            font-family: 'Changa', sans-serif;
-            margin: 0;
-            padding: 0;
-            color: #111;
-        }
+  <meta charset="UTF-8">
+  <title>بيع السيرفرات</title>
 
-        .title {
-            text-align: center;
-            font-size: 80px;
-            font-weight: 900;
-            margin-top: 40px;
-            color: #111;
-        }
+  <!-- خط عنوان عريض وغريب -->
+  <link href="https://fonts.googleapis.com/css2?family=Changa:wght@800&display=swap" rel="stylesheet">
+  <!-- خط نصوص كروت عريض جدًا ومتغير -->
+  <link href="https://fonts.googleapis.com/css2?family=Cairo+Play:wght@1000&display=swap" rel="stylesheet">
 
-        .cards-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-top: 50px;
-            gap: 50px;
-        }
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      color: white;
+      background-image: url('https://cdn.discordapp.com/attachments/1327702608458289193/1385272170564947978/IMG_2361.webp?ex=685576be&is=6854253e&hm=86b4b1571585e0cb7968047597200257e80091d9fe39ef9ce6b40b9eec29d313&');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      font-family: 'Cairo Play', sans-serif;
+    }
 
-        .card {
-            background-color: #f1f1f1;
-            border-radius: 25px;
-            padding: 30px;
-            width: 400px;
-            height: 400px;
-            box-shadow: 0 0 20px rgba(0,0,0,0.15);
-            overflow-y: auto;
-            font-size: 20px;
-        }
+    .title {
+      text-align: center;
+      font-size: 80px;
+      font-family: 'Changa', sans-serif;
+      font-weight: 800;
+      margin-top: 50px;
+      color: white;
+      text-shadow: 2px 2px 4px #000;
+    }
 
-        .card p {
-            margin: 10px 0;
-            line-height: 1.9;
-        }
+    .cards-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+      gap: 50px;
+    }
 
-        .button {
-            display: inline-block;
-            margin: 50px auto;
-            background-color: gray;
-            color: white;
-            text-decoration: none;
-            padding: 12px 25px;
-            border-radius: 10px;
-            font-size: 18px;
-            font-weight: bold;
-        }
+    .card {
+      background-color: rgba(200, 200, 200, 0.2);
+      border: 3px solid white;
+      border-radius: 25px;
+      padding: 30px;
+      width: 400px;
+      height: 400px;
+      box-shadow: 0 0 30px rgba(255, 255, 255, 0.2);
+      overflow-y: auto;
+      font-size: 20px;
+      backdrop-filter: blur(5px);
+    }
 
-        .button:hover {
-            background-color: #888;
-        }
+    .card p {
+      margin: 10px 0;
+      line-height: 1.9;
+      font-family: 'Cairo Play', sans-serif;
+      font-weight: 1000;
+      color: #fff;
+    }
 
-        .btn-container {
-            text-align: center;
-        }
-    </style>
+    .button {
+      display: inline-block;
+      margin: 60px auto;
+      background-color: gray;
+      color: white;
+      text-decoration: none;
+      padding: 12px 25px;
+      border-radius: 10px;
+      font-size: 18px;
+      font-weight: bold;
+      border: 2px solid white;
+    }
+
+    .button:hover {
+      background-color: #888;
+    }
+
+    .btn-container {
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
 
-    <div class="title">Srév</div>
+  <div class="title">Srév</div>
 
-    <div class="cards-container">
+  <div class="cards-container">
 
-        <div class="card">
-            <p>نقدم خدمات احترافية في بيع السيرفرات بأنواعها المختلفة، بأسعار مذهلة وسرعة في التنفيذ، مع إمكانية التعامل بكميات كبيرة وتفعيل فوري مضمون.</p>
-            <p>We offer professional services in selling different types of servers at amazing prices, fast execution, bulk availability, and guaranteed instant activation.</p>
-        </div>
-
-        <div class="card">
-            <p>هل تبحث عن أفضل جودة؟ نحن نوفر سيرفرات آمنة، فعالة، مستقرة، وتعمل بكفاءة عالية مع دعم فني متواصل دون توقف.</p>
-            <p>Looking for top quality? We provide secure, efficient, and stable servers that work with high performance, backed by continuous technical support.</p>
-        </div>
-
-        <div class="card">
-            <p>لدينا خيارات متعددة تناسب جميع الاحتياجات، سواء كنت فرد أو شركة، بأسعار لا تقبل المنافسة وخدمة عملاء راقية.</p>
-            <p>We offer multiple options for individuals or companies, with unbeatable prices and top-tier customer service.</p>
-        </div>
-
-        <div class="card">
-            <p>خدماتنا تشمل تفعيل سريع، ضمان جودة، وسرعة في التسليم لجميع الطلبات، مع توفير تقارير ومتابعة مخصصة لكل عميل.</p>
-            <p>Our services include fast activation, quality assurance, and quick delivery for all orders, with custom tracking and reports for every client.</p>
-        </div>
-
+    <div class="card">
+      <p>نقدم خدمات احترافية في بيع السيرفرات بأنواعها المختلفة، بأسعار مذهلة وسرعة في التنفيذ، مع إمكانية التعامل بكميات كبيرة وتفعيل فوري مضمون.</p>
+      <p>We offer professional services in selling different types of servers at amazing prices, fast execution, bulk availability, and guaranteed instant activation.</p>
     </div>
 
-    <div class="btn-container">
-        <a class="button" href="https://discord.gg/fx9GjgWhP2" target="_blank">دخول سيرفرنا</a>
+    <div class="card">
+      <p>هل تبحث عن أفضل جودة؟ نحن نوفر سيرفرات آمنة، فعالة، مستقرة، وتعمل بكفاءة عالية مع دعم فني متواصل دون توقف.</p>
+      <p>Looking for top quality? We provide secure, efficient, and stable servers that work with high performance, backed by continuous technical support.</p>
     </div>
+
+    <div class="card">
+      <p>لدينا خيارات متعددة تناسب جميع الاحتياجات، سواء كنت فرد أو شركة، بأسعار لا تقبل المنافسة وخدمة عملاء راقية.</p>
+      <p>We offer multiple options for individuals or companies, with unbeatable prices and top-tier customer service.</p>
+    </div>
+
+    <div class="card">
+      <p>خدماتنا تشمل تفعيل سريع، ضمان جودة، وسرعة في التسليم لجميع الطلبات، مع توفير تقارير ومتابعة مخصصة لكل عميل.</p>
+      <p>Our services include fast activation, quality assurance, and quick delivery for all orders, with custom tracking and reports for every client.</p>
+    </div>
+
+  </div>
+
+  <div class="btn-container">
+    <a class="button" href="https://discord.gg/fx9GjgWhP2" target="_blank">دخول سيرفرنا</a>
+  </div>
 
 </body>
 </html>
