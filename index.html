@@ -2,21 +2,26 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>Srev</title>
+    <title>بيع السيرفرات</title>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@900&display=swap" rel="stylesheet">
     <style>
         body {
-            background-color: #444;
-            font-family: 'Arial', sans-serif;
+            background-color: white;
+            background-image: repeating-linear-gradient(45deg, #000 1px, transparent 2px),
+                              repeating-linear-gradient(-45deg, #000 1px, transparent 2px);
+            background-size: 40px 40px;
+            font-family: 'Changa', sans-serif;
             margin: 0;
             padding: 0;
-            color: white;
+            color: #111;
         }
 
         .title {
             text-align: center;
-            font-size: 60px;
+            font-size: 80px;
             font-weight: 900;
             margin-top: 40px;
+            color: #111;
         }
 
         .cards-container {
@@ -24,39 +29,43 @@
             flex-direction: column;
             align-items: center;
             margin-top: 50px;
-            gap: 40px; /* مسافة كبيرة بين الكروت */
+            gap: 50px;
         }
 
         .card {
-            background-color: #555;
-            border-radius: 20px;
+            background-color: #f1f1f1;
+            border-radius: 25px;
             padding: 30px;
             width: 400px;
             height: 400px;
-            box-shadow: 0 0 15px rgba(0,0,0,0.4);
+            box-shadow: 0 0 20px rgba(0,0,0,0.15);
             overflow-y: auto;
+            font-size: 20px;
         }
 
         .card p {
             margin: 10px 0;
-            line-height: 1.8;
-            font-size: 16px;
+            line-height: 1.9;
         }
 
         .button {
-            display: block;
-            margin: 60px auto;
+            display: inline-block;
+            margin: 50px auto;
             background-color: gray;
             color: white;
             text-decoration: none;
-            padding: 18px 30px;
+            padding: 12px 25px;
             border-radius: 10px;
-            font-size: 20px;
+            font-size: 18px;
             font-weight: bold;
         }
 
         .button:hover {
             background-color: #888;
+        }
+
+        .btn-container {
+            text-align: center;
         }
     </style>
 </head>
@@ -67,28 +76,30 @@
     <div class="cards-container">
 
         <div class="card">
-            <p>نقدم خدمات بيع سيرفرات بأسعار مميزة مع ضمان التفعيل الفوري والدعم الفني السريع. نحن نضمن لك أعلى جودة وسرعة في التنفيذ لتلبية احتياجاتك اليومية.</p>
-            <p>We offer server selling services with competitive pricing, instant activation guarantee, and fast technical support. We ensure top quality and execution speed for your daily needs.</p>
+            <p>نقدم خدمات احترافية في بيع السيرفرات بأنواعها المختلفة، بأسعار مذهلة وسرعة في التنفيذ، مع إمكانية التعامل بكميات كبيرة وتفعيل فوري مضمون.</p>
+            <p>We offer professional services in selling different types of servers at amazing prices, fast execution, bulk availability, and guaranteed instant activation.</p>
         </div>
 
         <div class="card">
-            <p>إذا كنت تبحث عن سيرفرات مستقرة، مفعلة، وآمنة، فنحن نوفر لك كل ذلك وأكثر. كميات كبيرة متوفرة وجاهزة للتسليم في أي وقت.</p>
-            <p>If you're looking for stable, activated, and secure servers — we've got it all. Large quantities available and ready for immediate delivery.</p>
+            <p>هل تبحث عن أفضل جودة؟ نحن نوفر سيرفرات آمنة، فعالة، مستقرة، وتعمل بكفاءة عالية مع دعم فني متواصل دون توقف.</p>
+            <p>Looking for top quality? We provide secure, efficient, and stable servers that work with high performance, backed by continuous technical support.</p>
         </div>
 
         <div class="card">
-            <p>خدمتنا لا تقتصر على السعر فقط، بل نقدم لك تجربة متكاملة تشمل الجودة العالية، الرد السريع، والتعامل الاحترافي مع كل طلب.</p>
-            <p>Our service isn’t just about low prices — we offer a complete experience with high quality, fast response, and professional handling of every order.</p>
+            <p>لدينا خيارات متعددة تناسب جميع الاحتياجات، سواء كنت فرد أو شركة، بأسعار لا تقبل المنافسة وخدمة عملاء راقية.</p>
+            <p>We offer multiple options for individuals or companies, with unbeatable prices and top-tier customer service.</p>
         </div>
 
         <div class="card">
-            <p>سواء كنت موزعًا أو مستخدمًا فرديًا، لدينا خطط وأسعار تناسب الجميع. تواصل معنا لأي استفسار أو طلب خاص وسنكون بخدمتك فورًا.</p>
-            <p>Whether you're a reseller or an individual user, we have plans and pricing for everyone. Contact us for any inquiry or custom request and we’ll be at your service instantly.</p>
+            <p>خدماتنا تشمل تفعيل سريع، ضمان جودة، وسرعة في التسليم لجميع الطلبات، مع توفير تقارير ومتابعة مخصصة لكل عميل.</p>
+            <p>Our services include fast activation, quality assurance, and quick delivery for all orders, with custom tracking and reports for every client.</p>
         </div>
 
     </div>
 
-    <a class="button" href="https://discord.gg/fx9GjgWhP2" target="_blank">دخول سيرفرنا لطلب أو الاستفسار</a>
+    <div class="btn-container">
+        <a class="button" href="https://discord.gg/fx9GjgWhP2" target="_blank">دخول سيرفرنا</a>
+    </div>
 
 </body>
 </html>
